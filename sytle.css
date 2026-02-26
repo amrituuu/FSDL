@@ -1,0 +1,43 @@
+/* Tag Selector */
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ID Selector */
+#home {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+}
+
+/* Class Selector */
+.hero-section {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Borders, Margins, Padding */
+section {
+    padding-top: 80px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Background & Position */
+footer {
+    background-position: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+}
