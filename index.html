@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>http://127.0.0.1:3000/index.html
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h2 id="formTitle">Student Registration Form</h2>
+
+    <img id="profileImage" src="https://via.placeholder.com/120" alt="Profile">
+
+    <form id="regForm">
+
+        <input type="text" id="username" placeholder="Username">
+        <small class="error"></small>
+
+        <input type="text" id="email" placeholder="Email">
+        <small class="error"></small>
+
+        <input type="text" id="phone" placeholder="Phone Number">
+        <small class="error"></small>
+
+        <input type="password" id="password" placeholder="Password">
+        <small class="error"></small>
+
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <small class="error"></small>
+
+        <button type="submit" id="submitBtn">Register</button>
+        <button type="button" id="changeImageBtn">Change Image</button>
+
+    </form>
+
+    <div id="successMessage"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> 
